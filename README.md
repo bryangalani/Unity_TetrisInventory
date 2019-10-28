@@ -23,18 +23,18 @@ The code is commented.
   * (ScriptableObject), creates new asset menu in Inventory/Tetris/Item. It is the base script for creating Items and its derivatives.
 
 * TetrisListItens
-  * Contains all items prefabs that will be disponible in the game. Used to drop the item without having it prefab instantiated.
+  * Contains all items prefabs that will be available in the game. Used to drop the item without having it prefab instantiated.
 
 Now the most important files:
 
 * TetrisItemSlot (Most Important)
-  * Responsible for each slots that contains the item (item slot by itself), contain the drag actions, reescale slot size based on itemSize (X,Y), drop items.
+  * Responsible for each slot that contains the item (item slot by itself), contains the drag actions, rescale slot size based on itemSize (X, Y), drop items.
    * Be sure to change the size parameter to your own cell size.
    
 * TetrisSlot (Most Important)
-  * Responsible for the invisible Tetris grid, controls where have an item, free spaces, undesired positions and others.
+  * Responsible for the invisible Tetris grid, controls where have an item, free spaces, undesired positions, and others.
   * The cellSize parameter must be the same used in the size parameter in the TetrisItemSlot script.
   * maxGridX parameter is the number of slots in the horizontal line. (In my case I used 14).
   
 * TetrisUI
-  * Responsible for creating the background grid that will be behind the collected itens, creates the number of cells that were set in the TetrisInventory script.
+  * Responsible for creating the background grid that will be behind the collected items, creates the number of cells that were set in the TetrisInventory script.

@@ -8,5 +8,10 @@ The main ideia of this project is to implement a Tetris Inventory in Unity. The 
 
 I used this files to use the Tetris Inventory in a 2D roguelike game.
 
+![Tetris Inventory](/images/logo.png)
+
+
 # How to Use
+
+
 

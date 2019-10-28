@@ -31,7 +31,7 @@ Now the most important files:
   * Responsible for each slots that contains the item (item slot by itself), contain the drag actions, reescale slot size based on itemSize (X,Y), drop items.
    * Be sure to change the size parameter to your own cell size.
    
- * TetrisSlot (Most Important)
+* TetrisSlot (Most Important)
   * Responsible for the invisible Tetris grid, controls where have an item, free spaces, undesired positions and others.
   * The cellSize parameter must be the same used in the size parameter in the TetrisItemSlot script.
   * maxGridX parameter is the number of slots in the horizontal line. (In my case I used 14).

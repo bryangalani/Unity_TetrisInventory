@@ -35,7 +35,7 @@ There are a few folders in the game, being them:
 * Prefabs -> empty slot prefab (SlotTetris), item prefabs, prefab of the items that will go to inventoy (itemSlotTetris).
 * Scenes -> just have one.
 * ScriptableItems -> two scriptable Items with different sizes that can be collected by the player, and have its own characteristics.
-* Scripts -> Have the Player Scripts, Tetris Inventory Scripts, Camera Follow Script and, the script to turn items collectables.
+* Scripts -> Have the Player Scripts, Tetris Inventory Scripts (inside of it, there is the itensToUse, which is the scripts for the items that when clicked in the inventory can be used and perform some action in the gameWorld, in this case, it is a potion), Camera Follow Script and, the script to turn items collectables.
 * Tileset -> All tiles used in the scene and some more.
 
 

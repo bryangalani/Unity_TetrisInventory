@@ -28,6 +28,17 @@ To drop an item, drag it over the wood box.
 * **Display** item description when pointing mouse over it.
 * **Rescale** item based on it (X, Y) size.
 
+# Getting Started
+There are a few folders in the game, being them:
+
+* Fonts -> personalized font to show item description
+* Prefabs -> empty slot prefab (SlotTetris), item prefabs, prefab of the items that will go to inventoy (itemSlotTetris).
+* Scenes -> just have one.
+* ScriptableItems -> two scriptable Items with different sizes that can be collected by the player, and have its own characteristics.
+* Scripts -> Have the Player Scripts, Tetris Inventory Scripts, Camera Follow Script and, the script to turn items collectables.
+* Tileset -> All tiles used in the scene and some more.
+
+
 # Scripts
 * Collectable
   * Responsible for picking up items from the floor.

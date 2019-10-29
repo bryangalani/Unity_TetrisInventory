@@ -1,5 +1,4 @@
 # Unity Tetris Inventory System in C#
-C# Unity Projects 2019/2020
 
 # Description
 This project is composed of C# files, that were programmed in visual studio linked to Unity 2019.2.4f1 (64bits).

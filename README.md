@@ -6,7 +6,7 @@ This project is composed of C# files, that were programmed in visual studio link
 
 The main ideia of this project is to implement a Tetris Inventory in Unity. The tetris inventory is the same used in Resident Evil 4 and Diablo. Unfortunately I did not find any good stuff in the internet, so I developed it by my own (which means that it could be optimized yet).
 
-I used this files in a 2D roguelike indie game [unfinished]. The project that will be provided just have a dumb player movement and camera follow script, and the inventory tetris with item decription.
+I used this files in a 2D roguelike indie game [unfinished]. The project that will be provided just have a simple player movement and camera follow script, and the inventory tetris with item decription.
 
 ![Tetris Inventory](/images/TetrisInventory.png)
 

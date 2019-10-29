@@ -1,4 +1,4 @@
-# Unity Tetris Inventory C#
+# Unity Tetris Inventory System in C#
 C# Unity Projects 2019/2020
 
 # Description

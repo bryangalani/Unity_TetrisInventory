@@ -14,20 +14,29 @@ To use this files, you will need to make some tailoring in the code, to fit your
 
 
 # Keys
-**Player Movement**: A W S D
-**Inventory**: I
-**PickUp Item**: K
-**Drag / Drop / Use / Description**: Mouse
+* **Player Movement**: A W S D
+* **Inventory**: I
+* **PickUp Item**: K
+* **Drag / Drop / Use / Description**: Mouse
+
+To drop an item, drag it over the wood box.
+
+# Functionalities
+* **PickUp** item on the floor and **Add** in the inventory.
+* **Remove** item from the inventory and **Drop** it on the floor.
+* **Drag** items in the inventory and **Check** if the item fits.
+* **Display** item description when pointing mouse over it.
+* **Rescale** item based on it (X, Y) size.
 
 # Scripts
 * Collectable
- * Responsible for picking up items from the floor.
+  * Responsible for picking up items from the floor.
  
 * cameraFollow
- * Follow the player.
+  * Follow the player.
  
 * Functionalities
- * Change item description on canvas and enable openning inventory pressing the key: I.
+  * Change item description on canvas and enable openning inventory pressing the key: I.
 
 **Tetris Inventory Scripts**
 

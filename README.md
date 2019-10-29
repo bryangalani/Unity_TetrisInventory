@@ -81,3 +81,17 @@ Now the most important files:
 * Feel free to use this code and change however you want. If there is some doubt remaining let me know.
 * Hope this helps.
 * Follow me on LinkedIn: https://www.linkedin.com/in/bryangalani/
+
+# License
+
+Copyright (c) 2019 Bryan Galani
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.

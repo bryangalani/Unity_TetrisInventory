@@ -1,7 +1,7 @@
 # Unity Tetris Inventory System in C#
 
 # Description
-This project is composed of C# files, that were programmed in visual studio linked to Unity 2019.2.4f1 (64bits).
+The Unity project is packed in .rar file, and is composed of C# files, that were programmed in visual studio linked to Unity 2019.2.4f1 (64bits). Just unpack the file to import the project in Unity.
 
 The main ideia of this project is to implement a Tetris Inventory in Unity. The tetris inventory is the same used in Resident Evil 4 and Diablo. Unfortunately I did not find any good stuff in the internet, so I developed it by my own (which means that it could be optimized yet).
 

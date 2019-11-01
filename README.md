@@ -1,11 +1,11 @@
 # Unity Tetris Inventory System in C#
 
 # Description
-The Unity project is packed in .rar file, and is composed of C# files, that were programmed in visual studio linked to Unity 2019.2.4f1 (64bits). Just unpack the file to import the project in Unity.
+The Unity project is packed in .rar file and is composed of C# files, that were programmed in visual studio linked to Unity 2019.2.4f1 (64bits). Just unpack the file to import the project in Unity.
 
-The main ideia of this project is to implement a Tetris Inventory in Unity. The tetris inventory is the same used in Resident Evil 4 and Diablo. Unfortunately I did not find any good stuff in the internet, so I developed it by my own (which means that it could be optimized yet).
+The main idea of this project is to implement a Tetris Inventory in  Unity. The Tetris inventory is the same used in Resident Evil 4 and  Diablo. Unfortunately, I did not find any good stuff on the internet, so I  developed it on my own (which means that it could be optimized yet).
 
-I used this files in a 2D roguelike indie game [unfinished]. The project that will be provided just have a simple player movement and camera follow script, and the inventory tetris with item decription.
+I used these files in a 2D roguelike indie game [unfinished]. The project that will be provided just have a simple player movement and a camera follow script, and the inventory tetris with item description.
 
 ![Tetris Inventory](/images/TetrisInventory.png)
 
@@ -25,16 +25,16 @@ To drop an item, drag it over the wood box.
 * **PickUp** item on the floor and **Add** in the inventory.
 * **Remove** item from the inventory and **Drop** it on the floor.
 * **Drag** items in the inventory and **Check** if the item fits.
-* **Display** item description when pointing mouse over it.
+* **Display** item description when pointing the mouse over it.
 * **Rescale** item based on it (X, Y) size.
 
 # Getting Started
 There are a few folders in the game, being them:
 
 * Fonts -> personalized font to show item description
-* Prefabs -> empty slot prefab (SlotTetris), item prefabs, prefab of the items that will go to inventoy (itemSlotTetris).
+* Prefabs -> empty slot prefab (SlotTetris), item prefabs, prefab of the items that will go to inventory (itemSlotTetris).
 * Scenes -> just have one.
-* ScriptableItems -> two scriptable Items with different sizes that can be collected by the player, and have its own characteristics.
+* ScriptableItems -> two scriptable Items with different sizes that can be collected by the player, and have its characteristics.
 * Scripts -> Have the Player Scripts, Tetris Inventory Scripts (inside of it, there is the itensToUse, which is the scripts for the items that when clicked in the inventory can be used and perform some action in the gameWorld, in this case, it is a potion), Camera Follow Script and, the script to turn items collectables.
 * Tileset -> All tiles used in the scene and some more.
 
@@ -47,7 +47,7 @@ There are a few folders in the game, being them:
   * Follow the player.
  
 * Functionalities
-  * Change item description on canvas and enable openning inventory pressing the key: I.
+  * Change item description on canvas and enable opening inventory pressing the key: I.
 
 **Tetris Inventory Scripts**
 
@@ -65,7 +65,7 @@ Now the most important files:
 
 * TetrisItemSlot (Most Important)
   * Responsible for each slot that contains the item (item slot by itself), contains the drag actions, rescale slot size based on itemSize (X, Y), drop items.
-   * Be sure to change the size parameter to your own cell size.
+   * Be sure to change the size parameter to your cell size.
    
 * TetrisSlot (Most Important)
   * Responsible for the invisible Tetris grid, controls where have an item, free spaces, undesired positions, and others.
@@ -76,7 +76,7 @@ Now the most important files:
   * Responsible for creating the background grid that will be behind the collected items, creates the number of cells that were set in the TetrisInventory script.
   
   # Observations
-* The code was first wrote in portuguese, so I apologize if I forgot to change some parts to english, or if there is grammar mistakes.
+* The code was first written in Portuguese, so I apologize if I forgot to change some parts to English, or if there are grammar mistakes.
 * The Sprite Art was not made for me, please change to yours! Use this just to study.
 * Feel free to use this code and change however you want. If there is some doubt remaining let me know.
 * Hope this helps.

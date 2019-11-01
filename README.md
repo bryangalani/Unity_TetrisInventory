@@ -77,7 +77,7 @@ Now the most important files:
   
   # Observations
 * The code was first written in Portuguese, so I apologize if I forgot to change some parts to English, or if there are grammar mistakes.
-* The Sprite Art was not made for me, please change to yours! Use this just to study.
+* **The Sprite Art was not made for me, please change to yours! I cut off most of them from the project. Use the remaining sprites just to study.**
 * Feel free to use this code and change however you want. If there is some doubt remaining let me know.
 * Hope this helps.
 * Follow me on LinkedIn: https://www.linkedin.com/in/bryangalani/

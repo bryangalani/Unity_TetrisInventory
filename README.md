@@ -26,7 +26,7 @@ To drop an item, drag it over the wood box.
 * **Remove** item from the inventory and **Drop** it on the floor.
 * **Drag** items in the inventory and **Check** if the item fits.
 * **Display** item description when pointing the mouse over it.
-* **Rescale** item based on it (X, Y) size.
+* **Rescale** item based on it's (X, Y) size.
 
 # Getting Started
 There are a few folders in the game, being them:
